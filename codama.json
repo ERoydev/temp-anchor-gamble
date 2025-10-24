@@ -1,0 +1,19 @@
+{
+    "idl": "target/idl/data_structures.json",
+    "before": [],
+    "scripts": {
+        "dart": [
+            {
+                "from": "@limechain/renderers-dart",
+                "args": [
+                    "generated",
+                    {
+                        "generateBorsh": true,
+                        "deleteFolderBeforeRendering": true,
+                        "formatCode": true
+                    }
+                ]
+            }
+        ]
+    }
+}
